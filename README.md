@@ -6,3 +6,12 @@ Adapted from Anthropic's MCP Server Quickstart documentation.
 
 * https://modelcontextprotocol.io/quickstart/server
 * https://github.com/modelcontextprotocol/docs/blob/main/quickstart/server.mdx
+
+
+### Installing via Smithery
+
+To install weather for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mcp-examples/weather):
+
+```bash
+npx -y @smithery/cli install @mcp-examples/weather --client claude
+```
